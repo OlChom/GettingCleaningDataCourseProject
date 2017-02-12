@@ -33,7 +33,7 @@ testSubject_File      <- "./test/subject_test.txt"
 testSet_File          <- "./test/X_test.txt"
 testLabel_File        <- "./test/y_test.txt"
 
-out_File               <- "../myTidyAVG.csv"
+out_File               <- "../myTidyAVG.txt"
 
 # Load them all ...
 # featuresLabel is the names of the columns for both training and test sets
@@ -106,7 +106,7 @@ tidyAVG <- tidymeanstd %>%
   summarize_each(funs(mean))
 
 # Spit out file to upload in GitHub
-write.table(tidyAVG,out_File, sep=",", row.names = FALSE)
+write.table(tidyAVG,out_File, row.names = FALSE)
 
 # Return to original Env.
 setwd(curDir)
