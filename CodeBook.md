@@ -34,84 +34,84 @@ Description of the tidyAVG Set
 ------------------------------
  81  Variables      180  Observations
 
- [1] "activity"                                        
- [2] "subjectid"                                       
- [3] "timebodyaccelerometer.mean...x"                  
- [4] "timebodyaccelerometer.mean...y"                  
- [5] "timebodyaccelerometer.mean...z"                  
- [6] "timebodyaccelerometer.std...x"                   
- [7] "timebodyaccelerometer.std...y"                   
- [8] "timebodyaccelerometer.std...z"                   
- [9] "timegravityaccelerometer.mean...x"               
-[10] "timegravityaccelerometer.mean...y"               
-[11] "timegravityaccelerometer.mean...z"               
-[12] "timegravityaccelerometer.std...x"                
-[13] "timegravityaccelerometer.std...y"                
-[14] "timegravityaccelerometer.std...z"                
-[15] "timebodyaccelerometerjerk.mean...x"              
-[16] "timebodyaccelerometerjerk.mean...y"              
-[17] "timebodyaccelerometerjerk.mean...z"              
-[18] "timebodyaccelerometerjerk.std...x"               
-[19] "timebodyaccelerometerjerk.std...y"               
-[20] "timebodyaccelerometerjerk.std...z"               
-[21] "timebodygyroscope.mean...x"                      
-[22] "timebodygyroscope.mean...y"                      
-[23] "timebodygyroscope.mean...z"                      
-[24] "timebodygyroscope.std...x"                       
-[25] "timebodygyroscope.std...y"                       
-[26] "timebodygyroscope.std...z"                       
-[27] "timebodygyroscopejerk.mean...x"                  
-[28] "timebodygyroscopejerk.mean...y"                  
-[29] "timebodygyroscopejerk.mean...z"                  
-[30] "timebodygyroscopejerk.std...x"                   
-[31] "timebodygyroscopejerk.std...y"                   
-[32] "timebodygyroscopejerk.std...z"                   
-[33] "timebodyaccelerometermag.mean.."                 
-[34] "timebodyaccelerometermag.std.."                  
-[35] "timegravityaccelerometermag.mean.."              
-[36] "timegravityaccelerometermag.std.."               
-[37] "timebodyaccelerometerjerkmag.mean.."             
-[38] "timebodyaccelerometerjerkmag.std.."              
-[39] "timebodygyroscopemag.mean.."                     
-[40] "timebodygyroscopemag.std.."                      
-[41] "timebodygyroscopejerkmag.mean.."                 
-[42] "timebodygyroscopejerkmag.std.."                  
-[43] "frequencybodyaccelerometer.mean...x"             
-[44] "frequencybodyaccelerometer.mean...y"             
-[45] "frequencybodyaccelerometer.mean...z"             
-[46] "frequencybodyaccelerometer.std...x"              
-[47] "frequencybodyaccelerometer.std...y"              
-[48] "frequencybodyaccelerometer.std...z"              
-[49] "frequencybodyaccelerometer.meanfreq...x"         
-[50] "frequencybodyaccelerometer.meanfreq...y"         
-[51] "frequencybodyaccelerometer.meanfreq...z"         
-[52] "frequencybodyaccelerometerjerk.mean...x"         
-[53] "frequencybodyaccelerometerjerk.mean...y"         
-[54] "frequencybodyaccelerometerjerk.mean...z"         
-[55] "frequencybodyaccelerometerjerk.std...x"          
-[56] "frequencybodyaccelerometerjerk.std...y"          
-[57] "frequencybodyaccelerometerjerk.std...z"          
-[58] "frequencybodyaccelerometerjerk.meanfreq...x"     
-[59] "frequencybodyaccelerometerjerk.meanfreq...y"     
-[60] "frequencybodyaccelerometerjerk.meanfreq...z"     
-[61] "frequencybodygyroscope.mean...x"                 
-[62] "frequencybodygyroscope.mean...y"                 
-[63] "frequencybodygyroscope.mean...z"                 
-[64] "frequencybodygyroscope.std...x"                  
-[65] "frequencybodygyroscope.std...y"                  
-[66] "frequencybodygyroscope.std...z"                  
-[67] "frequencybodygyroscope.meanfreq...x"             
-[68] "frequencybodygyroscope.meanfreq...y"             
-[69] "frequencybodygyroscope.meanfreq...z"             
-[70] "frequencybodyaccelerometermag.mean.."            
-[71] "frequencybodyaccelerometermag.std.."             
-[72] "frequencybodyaccelerometermag.meanfreq.."        
-[73] "frequencybodybodyaccelerometerjerkmag.mean.."    
-[74] "frequencybodybodyaccelerometerjerkmag.std.."     
-[75] "frequencybodybodyaccelerometerjerkmag.meanfreq.."
-[76] "frequencybodybodygyroscopemag.mean.."            
-[77] "frequencybodybodygyroscopemag.std.."             
-[78] "frequencybodybodygyroscopemag.meanfreq.."        
-[79] "frequencybodybodygyroscopejerkmag.mean.."        
-[80] "frequencybodybodygyroscopejerkmag.std.."         
-[81] "frequencybodybodygyroscopejerkmag.meanfreq.."    
+activity                                        : Factor w/ 6 levels "LAYING","SITTING",..
+subjectid                                       : int
+timebodyaccelerometer.mean...x                  : num
+timebodyaccelerometer.mean...y                  : num
+timebodyaccelerometer.mean...z                  : num
+timebodyaccelerometer.std...x                   : num
+timebodyaccelerometer.std...y                   : num
+timebodyaccelerometer.std...z                   : num
+timegravityaccelerometer.mean...x               : num
+timegravityaccelerometer.mean...y               : num
+timegravityaccelerometer.mean...z               : num
+timegravityaccelerometer.std...x                : num
+timegravityaccelerometer.std...y                : num
+timegravityaccelerometer.std...z                : num
+timebodyaccelerometerjerk.mean...x              : num
+timebodyaccelerometerjerk.mean...y              : num
+timebodyaccelerometerjerk.mean...z              : num
+timebodyaccelerometerjerk.std...x               : num
+timebodyaccelerometerjerk.std...y               : num
+timebodyaccelerometerjerk.std...z               : num
+timebodygyroscope.mean...x                      : num
+timebodygyroscope.mean...y                      : num
+timebodygyroscope.mean...z                      : num
+timebodygyroscope.std...x                       : num
+timebodygyroscope.std...y                       : num
+timebodygyroscope.std...z                       : num
+timebodygyroscopejerk.mean...x                  : num
+timebodygyroscopejerk.mean...y                  : num
+timebodygyroscopejerk.mean...z                  : num
+timebodygyroscopejerk.std...x                   : num
+timebodygyroscopejerk.std...y                   : num
+timebodygyroscopejerk.std...z                   : num
+timebodyaccelerometermag.mean..                 : num
+timebodyaccelerometermag.std..                  : num
+timegravityaccelerometermag.mean..              : num
+timegravityaccelerometermag.std..               : num
+timebodyaccelerometerjerkmag.mean..             : num
+timebodyaccelerometerjerkmag.std..              : num
+timebodygyroscopemag.mean..                     : num
+timebodygyroscopemag.std..                      : num
+timebodygyroscopejerkmag.mean..                 : num
+timebodygyroscopejerkmag.std..                  : num
+frequencybodyaccelerometer.mean...x             : num
+frequencybodyaccelerometer.mean...y             : num
+frequencybodyaccelerometer.mean...z             : num
+frequencybodyaccelerometer.std...x              : num
+frequencybodyaccelerometer.std...y              : num
+frequencybodyaccelerometer.std...z              : num
+frequencybodyaccelerometer.meanfreq...x         : num
+frequencybodyaccelerometer.meanfreq...y         : num
+frequencybodyaccelerometer.meanfreq...z         : num
+frequencybodyaccelerometerjerk.mean...x         : num
+frequencybodyaccelerometerjerk.mean...y         : num
+frequencybodyaccelerometerjerk.mean...z         : num
+frequencybodyaccelerometerjerk.std...x          : num
+frequencybodyaccelerometerjerk.std...y          : num
+frequencybodyaccelerometerjerk.std...z          : num
+frequencybodyaccelerometerjerk.meanfreq...x     : num
+frequencybodyaccelerometerjerk.meanfreq...y     : num
+frequencybodyaccelerometerjerk.meanfreq...z     : num
+frequencybodygyroscope.mean...x                 : num
+frequencybodygyroscope.mean...y                 : num
+frequencybodygyroscope.mean...z                 : num
+frequencybodygyroscope.std...x                  : num
+frequencybodygyroscope.std...y                  : num
+frequencybodygyroscope.std...z                  : num
+frequencybodygyroscope.meanfreq...x             : num
+frequencybodygyroscope.meanfreq...y             : num
+frequencybodygyroscope.meanfreq...z             : num
+frequencybodyaccelerometermag.mean..            : num
+frequencybodyaccelerometermag.std..             : num
+frequencybodyaccelerometermag.meanfreq..        : num
+frequencybodybodyaccelerometerjerkmag.mean..    : num
+frequencybodybodyaccelerometerjerkmag.std..     : num
+frequencybodybodyaccelerometerjerkmag.meanfreq..: num
+frequencybodybodygyroscopemag.mean..            : num
+frequencybodybodygyroscopemag.std..             : num
+frequencybodybodygyroscopemag.meanfreq..        : num
+frequencybodybodygyroscopejerkmag.mean..        : num
+frequencybodybodygyroscopejerkmag.std..         : num
+frequencybodybodygyroscopejerkmag.meanfreq..    : num
