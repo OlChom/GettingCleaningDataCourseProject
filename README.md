@@ -7,4 +7,4 @@ Only the mean and standard deviation variables were kept and summarized by takin
 
 run_analysis.R expects the source data set (as described in the codebook) to be available (unzipped) under C:\temp\UCI HAR Dataset
 This program will create a small tidy set.
-The tidy data set will be in the myTidyAVG.csv file.
+The tidy data set will be in the myTidyAVG.txt file.
